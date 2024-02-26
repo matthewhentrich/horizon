@@ -61,7 +61,7 @@ HORIZON_CONFIG = {
         'types': ['alert-success', 'alert-info']
     },
     'bug_url': None,
-    'help_url': "https://docs.openstack.org/",
+    'help_url': "https://www.datatenant.com",
     'exceptions': {'recoverable': exceptions.RECOVERABLE,
                    'not_found': exceptions.NOT_FOUND,
                    'unauthorized': exceptions.UNAUTHORIZED},
@@ -283,7 +283,7 @@ if USER_MENU_LINKS is None:
     USER_MENU_LINKS = []
     if SHOW_OPENRC_FILE:
         USER_MENU_LINKS.append({
-            'name': _('OpenStack RC File'),
+            'name': _('Download RC File'),
             'icon_classes': ['fa-download', ],
             'url': 'horizon:project:api_access:openrc',
         })
